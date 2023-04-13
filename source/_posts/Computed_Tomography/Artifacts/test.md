@@ -1,6 +1,7 @@
 ---
 title: test
 date: 2023-04-10
+toc_level: 1
 mathjax: true
 categories:
   - [Computed Tomography, Artifacts]
