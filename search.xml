@@ -126,6 +126,29 @@
     </entry>
     
     
+    
+    <entry>
+      <title>Categories</title>
+      <link href="/2013/12/24/categories/"/>
+      <url>/2013/12/24/categories/</url>
+      
+        <content type="html"><![CDATA[<p>This post contains 3 categories. Make sure your theme can display all of the categories.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Foo </category>
+          
+          <category> Bar </category>
+          
+          <category> Baz </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
   
   
 </search>
