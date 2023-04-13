@@ -3,8 +3,7 @@ title: test
 date: 2023-04-10
 mathjax: true
 categories:
-  - Computed Tomography
-  - Artifacts
+  - [Computed Tomography, Artifacts, test]
 tags:
   - CT
   - Artifacts
