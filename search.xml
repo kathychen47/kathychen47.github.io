@@ -137,11 +137,15 @@
       
       <categories>
           
-          <category> Foo </category>
+          <category> Computed Tomography </category>
           
-          <category> Bar </category>
+          <category> Artifacts </category>
           
-          <category> Baz </category>
+          <category> Software Setting </category>
+          
+          <category> test </category>
+          
+          <category> Kaggle </category>
           
       </categories>
       
