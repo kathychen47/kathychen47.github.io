@@ -33,7 +33,7 @@ skip_render:
 archive_generator:
   per_page: 0
   yearly: true
-  monthly: false
+  monthly: true
   daily: false
 # Writing
 new_post_name: :year-:month-:day-:title.md # File name of new posts
@@ -49,14 +49,19 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ""
   wrap: true
   hljs: false
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: false    # default false
+  custom_css:
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ""
@@ -102,7 +107,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Landscape
+theme: Claudia
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

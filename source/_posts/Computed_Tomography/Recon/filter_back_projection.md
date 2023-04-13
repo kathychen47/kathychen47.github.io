@@ -1,6 +1,6 @@
 ---
-title: FBP
-date:
+title: Filter Back Projection (FBP)
+date: 2014-05-31 10:05:56
 mathjax: true
 categories:
   - [Computed_Tomography, Recon]
