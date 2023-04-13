@@ -3,7 +3,7 @@ title: Filter Back Projection (FBP)
 date: 2023-04-07
 mathjax: true
 categories:
-  - [Computed_Tomography, Recon]
+  - [Computed Tomography, Reconstruction]
 tags:
   - FBP
   - Filter Back Projection

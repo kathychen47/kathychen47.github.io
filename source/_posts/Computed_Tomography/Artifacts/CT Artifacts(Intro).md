@@ -3,7 +3,7 @@ title: CT Artifacts(Intro)
 date: 2023-04-10
 mathjax: true
 categories:
-  - [Computed_Tomography, Artifacts]
+  - [Computed Tomography, Artifacts]
 tags:
   - CT
   - Artifacts
