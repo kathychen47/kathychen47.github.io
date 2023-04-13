@@ -1,6 +1,6 @@
 ---
 title: CT Artifacts(Intro)
-date: 2017-05-31 10:05:56
+date: 2023-04-10
 mathjax: true
 categories:
   - [Computed_Tomography, Artifacts]
@@ -14,11 +14,7 @@ tags:
 
 ## Artifact Definition
 
-Any systematic discrepancy between the CT numbers in the reconstructed image and the true attenuation coefficients of the object. [^1]
-
-{% blockquote [author[, source]] [link] [source_link_title] %}
-这里是引用
-{% endblockquote %}
+Any systematic discrepancy between the CT numbers in the reconstructed image and the true attenuation coefficients of the object. 
 
 ## Appearance of CT artifacts
 
@@ -153,4 +149,4 @@ Any systematic discrepancy between the CT numbers in the reconstructed image and
 
 ## Reference
 
-[^1]: [https://www.bilibili.com/video/BV1uJ411W7ki/?spm_id_from=333.999.0.0&vd_source=1725680e7f1b4515313eda07848d77c1](https://www.bilibili.com/video/BV1uJ411W7ki/?spm_id_from=333.999.0.0&vd_source=1725680e7f1b4515313eda07848d77c1)
+[1] [https://www.bilibili.com/video/BV1uJ411W7ki/?spm_id_from=333.999.0.0&vd_source=1725680e7f1b4515313eda07848d77c1](https://www.bilibili.com/video/BV1uJ411W7ki/?spm_id_from=333.999.0.0&vd_source=1725680e7f1b4515313eda07848d77c1)

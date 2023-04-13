@@ -1,6 +1,6 @@
 ---
 title: Filter Back Projection (FBP)
-date: 2014-05-31 10:05:56
+date: 2023-04-07
 mathjax: true
 categories:
   - [Computed_Tomography, Recon]
@@ -10,7 +10,7 @@ tags:
   - CT
 ---
 
-## principle
+## Principle
 
 It states that the one-dimensional Fourier transformer of the projection of a function or $image(x,y)$ along a direction $\theta$, is equal to a vertical slice two dimensional Fourier transform $F(\omega_1, \omega_2)$ of $f(x,y)$ passing through the origin and oriented at an angle $\theta$ with respect to the
 
