@@ -6,4 +6,4 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
-source/_posts/STAT318
+source/_posts/STAT318/*
