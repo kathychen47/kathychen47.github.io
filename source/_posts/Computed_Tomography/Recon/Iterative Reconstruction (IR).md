@@ -1,5 +1,5 @@
 ---
-title: Filter Back Projection (FBP)
+title: Iterative reconstruction (IR)
 date: 2023-04-07
 mathjax: true
 categories:
