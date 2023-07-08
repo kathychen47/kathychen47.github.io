@@ -10,23 +10,6 @@ tags:
   - CT
 ---
 
-## Principle
-
-It states that the one-dimensional Fourier transformer of the projection of a function or $image(x,y)$ along a direction $\theta$, is equal to a vertical slice two dimensional Fourier transform $F(\omega_1, \omega_2)$ of $f(x,y)$ passing through the origin and oriented at an angle $\theta$ with respect to the
-
-$$
-\omega_1
-$$
-
-axis.
-
-Assume $t\text{-}s$ is a rotated coordinate system according to $x\text{-}y$.
-
-Slice $f(x,y)$ in $x\text{-}y$ coordinate is shown as $f^{'}(t,s)$ in $t\text{-}s$ coordinate system.
-
-$$
-f^{'}(t,s) = \int_0^\pi  {d\theta } \int_{ - \infty }^{ + \infty } {P(\omega ,\theta )\left| \omega  \right|} {e^{2\pi \omega t}}d\omega
-$$
 
 ## Code In Python
 
