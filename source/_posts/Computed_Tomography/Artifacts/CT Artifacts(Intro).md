@@ -9,14 +9,13 @@ tags:
   - CT
   - Artifacts
   - CT Artifacts
-toc: true
 ---
 
 
 
 ## Artifact Definition
 
-Any systematic discrepancy between the CT numbers in the reconstructed image and the true attenuation coefficients of the object. 
+Any `systematic` discrepancy between the CT numbers in the reconstructed image and the true attenuation coefficients of the object. 
 
 ## Appearance of CT artifacts
 

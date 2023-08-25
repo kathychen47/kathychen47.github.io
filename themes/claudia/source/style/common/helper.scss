@@ -3,7 +3,9 @@
 }
 
 .is-family-serif {
-  font-family: serif;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 .is-full-width {
@@ -34,13 +36,15 @@
     content: "";
     z-index: 100;
     animation: skeleton-ani 1s ease infinite;
-    background: linear-gradient(120deg,
-                                hsla(0, 0%, 100%, 0) 30%,
-                                hsla(0, 0%, 100%, var(--skeleton-flash-color)) 50%,
-                                hsla(0, 0%, 100%, 0) 70%);
+    background: linear-gradient(
+      120deg,
+      hsla(0, 0%, 100%, 0) 30%,
+      hsla(0, 0%, 100%, var(--skeleton-flash-color)) 50%,
+      hsla(0, 0%, 100%, 0) 70%
+    );
   }
 
-  &::after{
+  &::after {
     content: "";
     position: absolute;
     left: 0;
@@ -61,4 +65,3 @@
     }
   }
 }
-

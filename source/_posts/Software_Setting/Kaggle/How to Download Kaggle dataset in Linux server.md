@@ -31,4 +31,10 @@ kaggle config set -n path -v /data/XRay_data
 
 ```python
 kaggle competitions download -c rsna-2022-cervical-spine-fracture-detection
+
 ```
+
+```r
+X
+```
+
