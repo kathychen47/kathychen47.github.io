@@ -100,7 +100,6 @@
 
 :root body {
   margin: 0;
-  height: 100vh;
   padding-top: 45px;
 }
 :root body a {
@@ -112,12 +111,11 @@
 }
 :root body .tag.post-item-tag {
   margin-right: 5px;
-  font-weight: bold;
-  color: darkorange;
+  color: #2577b2;
   font-style: normal;
   border-radius: 10px;
-  background: transparent;
-  border: 2px solid darkorange;
+  background: oklch(0.95 0.03 244.49);
+  border: 1px solid #def1ff;
 }
 :root body .button.is-default {
   height: 40px;
