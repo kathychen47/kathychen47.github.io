@@ -11,11 +11,11 @@ tags:
   - CT Artifacts
 ---
 
-
+<!-- toc -->
 
 ## Artifact Definition
 
-Any `systematic` discrepancy between the CT numbers in the reconstructed image and the true attenuation coefficients of the object. 
+Any `systematic` discrepancy between the CT numbers in the reconstructed image and the true attenuation coefficients of the object.
 
 ## Appearance of CT artifacts
 
@@ -73,7 +73,6 @@ Any `systematic` discrepancy between the CT numbers in the reconstructed image a
 
 - Corrected using tube current modulation or adaptive filtering.
 
-
 4. **Angular** **under-sampling** **–** too few angles acquired creates view aliasing where fine lines appear to radiate from the edges of a structure
 
    - Corrected using more angles or special techniques that increase data acquired per angle such as quarter-detector shift or flying-focal spot.
@@ -85,16 +84,17 @@ Any `systematic` discrepancy between the CT numbers in the reconstructed image a
    - Corrected by removing metal objects and/or software
 
 2. **Motion –** causes misregistration artifacts that lead to shading or streaking
+
    - Corrected by:
-   
+
      - **Positioning –** ensure patient is comfortable and that involuntary motions of un-important organs are not included in the FOV
-   
+
    - **Restraints –** often needed for children
    - **Breath-holding –** removes respiratory motion
    - **Overscanning** **–** acquire more than 360 degrees and average beginning and ending (since motion discrepency is greatest at these points)
      - **Software –** de-weight beginning and ending angles
    - **Cardiac gating –** only acquire at certain phases of cardiac cycle (e.g. end-diastole)
-   
+
 3. **Incomplete projections**
 
    - Correct by:
@@ -130,4 +130,4 @@ Any `systematic` discrepancy between the CT numbers in the reconstructed image a
 
 ## Reference
 
-[1] Barrett, J. F., & Keat, N. (2004). Artifacts in CT: recognition and avoidance. *Radiographics*, *24*(6), 1679-1691. 
+[1] Barrett, J. F., & Keat, N. (2004). Artifacts in CT: recognition and avoidance. _Radiographics_, _24_(6), 1679-1691.

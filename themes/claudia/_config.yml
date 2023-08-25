@@ -11,6 +11,9 @@ widgets:
   - category
   - profile
 
+toc:
+  max_depth: 3 #目录？
+
 # social config
 social:
   zhihu:
