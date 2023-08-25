@@ -6,6 +6,5 @@ layout: about
 
 ## Welcome to my note
 
-### Here is my profile
+### Here is my profile!
 
-Nice!
