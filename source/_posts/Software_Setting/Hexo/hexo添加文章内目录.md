@@ -30,9 +30,6 @@ toc:
 
 
 ## 3. 在文章中添加
-
-<!-- toc -->
-
 ```markdown
 ---
 title: My Article

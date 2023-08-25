@@ -34,7 +34,4 @@ kaggle competitions download -c rsna-2022-cervical-spine-fracture-detection
 
 ```
 
-```r
-X
-```
 
