@@ -1,6 +1,6 @@
 ---
 title: How to Download Kaggle dataset in Linux server
-date: 2023-03-1
+date: 2023-8-26
 mathjax: true
 categories:
   - [Software Setting, Hexo]
