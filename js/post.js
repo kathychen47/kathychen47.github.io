@@ -198,3 +198,4 @@ var $posts = {
 };
 
 $posts.mounted();
+//test
