@@ -1,15 +1,14 @@
 ---
-title: he
+title: Add toc in the article (hexo)
 date: 2023-08-26
 mathjax: true
 categories:
   - [Software Setting, Kaggle]
 tags:
-  - test
-  - test1
+  - hexo
 ---
 
-# Add toc in the article
+
 
 ## 1. install hexo-toc plug-in
 
