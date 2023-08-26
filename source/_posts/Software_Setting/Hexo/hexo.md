@@ -8,8 +8,6 @@ tags:
   - hexo
 ---
 
-
-
 ## 1. install hexo-toc plug-in
 
 ```css
