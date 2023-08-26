@@ -94,35 +94,6 @@
     
     <entry>
       <title>How to Download Kaggle dataset in Linux server</title>
-      <link href="/2023/02/28/Software-Setting-hexohello/"/>
-      <url>/2023/02/28/Software-Setting-hexohello/</url>
-      
-        <content type="html"><![CDATA[<h2><span id="1-install-kaggle-in-linux">1. Install Kaggle in Linux</span></h2><pre class="line-numbers language-python" data-language="python"><code class="language-python">pip install kaggle<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2><span id="2-get-kaggle-api">2. Get Kaggle API</span></h2><p>Kaggle -&gt; Account -&gt; Create New API Token -&gt; download kaggle.json -&gt; move kaggle. json file to home/user/.kaggle in linux</p><h2><span id="3-change-download-directory">3. Change Download Directory</span></h2><pre class="line-numbers language-python" data-language="python"><code class="language-python">kaggle config set -n path -v /data/XRay_data<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2><span id="4-download-dataset">4. Download Dataset</span></h2><pre class="line-numbers language-python" data-language="python"><code class="language-python">kaggle competitions download -c rsna-2022-cervical-spine-fracture-detection<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> Software Setting </category>
-          
-          <category> Kaggle </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Kaggle </tag>
-            
-            <tag> Linux </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>How to Download Kaggle dataset in Linux server</title>
       <link href="/2023/02/28/Software-Setting-Kaggle-How-to-Download-Kaggle-dataset-in-Linux-server/"/>
       <url>/2023/02/28/Software-Setting-Kaggle-How-to-Download-Kaggle-dataset-in-Linux-server/</url>
       
