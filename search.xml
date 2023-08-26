@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>he</title>
+      <title>Add toc in the article (hexo)</title>
       <link href="/2023/08/25/Software-Setting-Hexo-hexo/"/>
       <url>/2023/08/25/Software-Setting-Hexo-hexo/</url>
       
-        <content type="html"><![CDATA[<h1><span id="add-toc-in-the-article">Add toc in the article</span></h1><h2><span id="1-install-hexo-toc-plug-in">1. install hexo-toc plug-in</span></h2><pre class="line-numbers language-css" data-language="css"><code class="language-css">npm install hexo-toc --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2><span id="2-add-such-code-in-the-file-of-the-theme">2. add such code in the file of the theme</span></h2><pre class="line-numbers language-YAML" data-language="YAML"><code class="language-YAML">toc:  max_depth: 3<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2><span id="3-add-such-code-in-the-article">3. add such code in the article</span></h2><pre class="line-numbers language-MARKDOWN" data-language="MARKDOWN"><code class="language-MARKDOWN">---title: My Article---&lt;!-- toc --&gt;## Section 1...<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2><span id="4-generate-the-website-to-check">4. generate the website to check</span></h2><pre class="line-numbers language-css" data-language="css"><code class="language-css">hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-css" data-language="css"><code class="language-css">hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2><span id="5-final-effect">5. Final effect</span></h2><p><img src="https://raw.githubusercontent.com/kathychen47/Img4KathyBlog/main/toc.png"></p>]]></content>
+        <content type="html"><![CDATA[<h2><span id="1-install-hexo-toc-plug-in">1. install hexo-toc plug-in</span></h2><pre class="line-numbers language-css" data-language="css"><code class="language-css">npm install hexo-toc --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2><span id="2-add-such-code-in-the-file-of-the-theme">2. add such code in the file of the theme</span></h2><pre class="line-numbers language-YAML" data-language="YAML"><code class="language-YAML">toc:  max_depth: 3<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2><span id="3-add-such-code-in-the-article">3. add such code in the article</span></h2><pre class="line-numbers language-MARKDOWN" data-language="MARKDOWN"><code class="language-MARKDOWN">---title: My Article---&lt;!-- toc --&gt;## Section 1...<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2><span id="4-generate-the-website-to-check">4. generate the website to check</span></h2><pre class="line-numbers language-css" data-language="css"><code class="language-css">hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-css" data-language="css"><code class="language-css">hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2><span id="5-final-effect">5. Final effect</span></h2><p><img src="https://raw.githubusercontent.com/kathychen47/Img4KathyBlog/main/toc.png"></p>]]></content>
       
       
       <categories>
@@ -22,9 +22,7 @@
       
         <tags>
             
-            <tag> test </tag>
-            
-            <tag> test1 </tag>
+            <tag> hexo </tag>
             
         </tags>
       
