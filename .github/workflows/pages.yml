@@ -25,6 +25,7 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install
+      - name: Check Pandoc Version
         uses: docker://pandoc/core:2.9
         with:
           args: "--help" # gets appended to pandoc command
