@@ -24,7 +24,7 @@ $$
 $$
 
 - $f_{\mathrm{KN}}(E)$ is the Klein-Nishina function：
-  $f_{\mathrm{KN}}(\alpha)=\frac{1+\alpha}{\alpha^2}\left[\frac{2(1+\alpha)}{1+2 \alpha}-\frac{1}{\alpha} \ln (1+2 \alpha)\right]+\frac{1}{2 \alpha} \ln (1+2 \alpha)-\frac{(1+3 \alpha)}{(1+2 \alpha)^2}$
+  $$ =  > \mu (E) = {K_1}\frac{\rho }{A}{Z^3}*\frac{1}{{{E^3}}} + {K_2}\frac{\rho }{A}Z*{f_{{\text{KN}}}}(E)$$
 
 - $\alpha=E / 510.975 \mathrm{keV}$
 
