@@ -35,13 +35,13 @@ $$
 
   $A$ is atomic weight, $Z$ is atomic number, $\rho$ is mass density
 
-$$ = > \mu (E) = {K*1}\frac{\rho }{A}{Z^3}*\frac{1}{{{E^3}}} + {K_2}\frac{\rho }{A}Z*{f*{{\text{KN}}}}(E)$$
+$$ =  > \mu (E) = {K_1}\frac{\rho }{A}{Z^3}\frac{1}{{{E^3}}} + {K_2}\frac{\rho }{A}Z{f_{{\text{KN}}}}(E)$$
 
 - $E = \frac{{hc}}{\lambda }$
 
-$$ = > \mu (E) = {K*1}\frac{\rho }{A}{Z^3}*\frac{{{\lambda ^3}}}{{{{(hc)}^3}}} + {K_2}\frac{\rho }{A}Z*{f*{{\text{KN}}}}(E)$$
+$$ =  > \mu (E) = {K_1}\frac{\rho }{A}{Z^3}\frac{{{\lambda ^3}}}{{{{(hc)}^3}}} + {K_2}\frac{\rho }{A}Z{f_{{\text{KN}}}}(E)$$
 
-$= > \mu (E) = \frac{{{K_1}}}{{A{{(hc)}^3}}}\rho {Z^3}{\lambda ^3} + \frac{{{K_2}}}{A}\rho Z{f\_{{\text{KN}}}}(E)$$
+$$ =  > \mu (E) = \frac{{{K_1}}}{{A{{(hc)}^3}}}\rho {Z^3}{\lambda ^3} + \frac{{{K_2}}}{A}\rho Z{f_{{\text{KN}}}}(E)$$
 
 - ${f_{{\text{KN}}}}(E)$ can be approximate to ${f_{{\text{KN}}}}(E) \propto {E^{ - 1}}$, then ${f_{{\text{KN}}}}(E) \propto \lambda $ ????
 
