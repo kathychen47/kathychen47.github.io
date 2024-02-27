@@ -16,15 +16,15 @@
   <meta name="author" content="Kathy Chen">
   <meta name="keywords" content="">
   
-    <meta name="description" content="1. Install Kaggle in Linux 1pip install kaggle 2. Get Kaggle API Kaggle -&gt; Account -&gt; Create New API Token -&gt; download kaggle.json -&gt; move kaggle. json file to home&#x2F;user&#x2F;.kaggle in linux 3">
+    <meta name="description" content="1. Install Kaggle in Linux1pip install kaggle  2. Get Kaggle APIKaggle -&gt; Account -&gt; Create New API Token -&gt; download kaggle.json -&gt; move kaggle. json file to home&#x2F;user&#x2F;.kaggle in linux 3.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="How to Download Kaggle dataset in Linux server">
 <meta property="og:url" content="https://hexo.io/2023/02/28/Software-Setting-Kaggle-How-to-Download-Kaggle-dataset-in-Linux-server/index.html">
 <meta property="og:site_name" content="Kathy Chen Notes">
-<meta property="og:description" content="1. Install Kaggle in Linux 1pip install kaggle 2. Get Kaggle API Kaggle -&gt; Account -&gt; Create New API Token -&gt; download kaggle.json -&gt; move kaggle. json file to home&#x2F;user&#x2F;.kaggle in linux 3">
+<meta property="og:description" content="1. Install Kaggle in Linux1pip install kaggle  2. Get Kaggle APIKaggle -&gt; Account -&gt; Create New API Token -&gt; download kaggle.json -&gt; move kaggle. json file to home&#x2F;user&#x2F;.kaggle in linux 3.">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-02-28T11:00:00.000Z">
-<meta property="article:modified_time" content="2024-02-27T08:59:02.090Z">
+<meta property="article:modified_time" content="2024-02-27T09:07:33.683Z">
 <meta property="article:author" content="Kathy Chen">
 <meta property="article:tag" content="Kaggle">
 <meta property="article:tag" content="Linux">
@@ -388,16 +388,14 @@ mjx-container[display="true"] + br {
             
               <div class="markdown-body">
                 
-                <h2><span id="1-install-kaggle-in-linux">1. Install Kaggle in Linux</span></h2>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs python"><code class="language-hljs python">pip install kaggle<br></code></pre></td></tr></table></figure>
-<h2><span id="2-get-kaggle-api">2. Get Kaggle API</span></h2>
-<p>Kaggle -&gt; Account -&gt; Create New API Token -&gt; download
-kaggle.json -&gt; move kaggle. json file to home/user/.kaggle in
-linux</p>
-<h2><span id="3-change-download-directory">3. Change Download Directory</span></h2>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs python">kaggle config <span class="hljs-built_in"><code class="language-hljs python">kaggle config <span class="hljs-built_in">set</span> -n path -v /data/XRay_data<br></code></span></pre></td></tr></table></figure>
-<h2><span id="4-download-dataset">4. Download Dataset</span></h2>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre class=" language-hljs python">kaggle competitions download -c rsna-<span class="hljs-number"><code class="language-hljs python">kaggle competitions download -c rsna-<span class="hljs-number">2022</span>-cervical-spine-fracture-detection<br><br></code></span></pre></td></tr></table></figure>
+                <h2><span id="1-install-kaggle-in-linux">1. Install Kaggle in Linux</span></h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs python"><code class="language-hljs python">pip install kaggle<br></code></pre></td></tr></table></figure>
+
+<h2><span id="2-get-kaggle-api">2. Get Kaggle API</span></h2><p>Kaggle -&gt; Account -&gt; Create New API Token -&gt; download kaggle.json -&gt; move kaggle. json file to home/user/.kaggle in linux</p>
+<h2><span id="3-change-download-directory">3. Change Download Directory</span></h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs python">kaggle config <span class="hljs-built_in"><code class="language-hljs python">kaggle config <span class="hljs-built_in">set</span> -n path -v /data/XRay_data<br></code></span></pre></td></tr></table></figure>
+
+<h2><span id="4-download-dataset">4. Download Dataset</span></h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre class=" language-hljs python">kaggle competitions download -c rsna-<span class="hljs-number"><code class="language-hljs python">kaggle competitions download -c rsna-<span class="hljs-number">2022</span>-cervical-spine-fracture-detection<br><br></code></span></pre></td></tr></table></figure>
+
+
 
                 
               </div>

@@ -16,16 +16,16 @@
   <meta name="author" content="Kathy Chen">
   <meta name="keywords" content="">
   
-    <meta name="description" content="1. install hexo-toc plug-in 1npm install hexo-toc npm install hexo-toc --save 2. add such code in the file of the theme 12toc:  max_depth: toc:  max_depth: 3 3. add such code in the article 123456789-">
+    <meta name="description" content="1. install hexo-toc plug-in1npm install hexo-toc npm install hexo-toc --save  2. add such code in the file of the theme12toc:  max_depth: toc:  max_depth: 3  3. add such code in the article123456789--">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Add toc in the article (hexo)">
 <meta property="og:url" content="https://hexo.io/2023/08/25/Software-Setting-Hexo-hexo/index.html">
 <meta property="og:site_name" content="Kathy Chen Notes">
-<meta property="og:description" content="1. install hexo-toc plug-in 1npm install hexo-toc npm install hexo-toc --save 2. add such code in the file of the theme 12toc:  max_depth: toc:  max_depth: 3 3. add such code in the article 123456789-">
+<meta property="og:description" content="1. install hexo-toc plug-in1npm install hexo-toc npm install hexo-toc --save  2. add such code in the file of the theme12toc:  max_depth: toc:  max_depth: 3  3. add such code in the article123456789--">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://raw.githubusercontent.com/kathychen47/Img4KathyBlog/main/toc.png">
 <meta property="article:published_time" content="2023-08-25T12:00:00.000Z">
-<meta property="article:modified_time" content="2024-02-27T08:59:02.090Z">
+<meta property="article:modified_time" content="2024-02-27T09:07:33.683Z">
 <meta property="article:author" content="Kathy Chen">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary_large_image">
@@ -389,20 +389,17 @@ mjx-container[display="true"] + br {
             
               <div class="markdown-body">
                 
-                <h2><span id="1-install-hexo-toc-plug-in">1. install hexo-toc plug-in</span></h2>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs css">npm install hexo-toc <span class="hljs-attr"><code class="language-hljs css">npm install hexo-toc <span class="hljs-attr">--save</span><br></code></span></pre></td></tr></table></figure>
-<h2><span id="2-add-such-code-in-thefile-of-the-theme">2. add such code in the
-file of the theme</span></h2>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre class=" language-hljs YAML"><span class="hljs-attr">toc:</span><br>  <span class="hljs-attr">max_depth:</span> <span class="hljs-number"><code class="language-hljs YAML"><span class="hljs-attr">toc:</span><br>  <span class="hljs-attr">max_depth:</span> <span class="hljs-number">3</span><br></code></span></pre></td></tr></table></figure>
-<h2><span id="3-add-such-code-in-thearticle">3. add such code in the
-article</span></h2>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre class=" language-hljs MARKDOWN">---<br><span class="hljs-section">title: My Article</span><br><span class="hljs-section">---</span><br><br>&lt;!-- toc --&gt;<br><br><span class="hljs-section"><code class="language-hljs MARKDOWN">---<br><span class="hljs-section">title: My Article</span><br><span class="hljs-section">---</span><br><br>&lt;!-- toc --&gt;<br><br><span class="hljs-section">## Section 1</span><br><br>...<br></code></span></pre></td></tr></table></figure>
-<h2><span id="4-generate-the-website-tocheck">4. generate the website to
-check</span></h2>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs css"><code class="language-hljs css">hexo generate<br></code></pre></td></tr></table></figure>
+                <h2><span id="1-install-hexo-toc-plug-in">1. install hexo-toc plug-in</span></h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs css">npm install hexo-toc <span class="hljs-attr"><code class="language-hljs css">npm install hexo-toc <span class="hljs-attr">--save</span><br></code></span></pre></td></tr></table></figure>
+
+<h2><span id="2-add-such-code-in-the-file-of-the-theme">2. add such code in the file of the theme</span></h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre class=" language-hljs YAML"><span class="hljs-attr">toc:</span><br>  <span class="hljs-attr">max_depth:</span> <span class="hljs-number"><code class="language-hljs YAML"><span class="hljs-attr">toc:</span><br>  <span class="hljs-attr">max_depth:</span> <span class="hljs-number">3</span><br></code></span></pre></td></tr></table></figure>
+
+<h2><span id="3-add-such-code-in-the-article">3. add such code in the article</span></h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre class=" language-hljs MARKDOWN">---<br><span class="hljs-section">title: My Article</span><br><span class="hljs-section">---</span><br><br>&lt;!-- toc --&gt;<br><br><span class="hljs-section"><code class="language-hljs MARKDOWN">---<br><span class="hljs-section">title: My Article</span><br><span class="hljs-section">---</span><br><br>&lt;!-- toc --&gt;<br><br><span class="hljs-section">## Section 1</span><br><br>...<br></code></span></pre></td></tr></table></figure>
+
+<h2><span id="4-generate-the-website-to-check">4. generate the website to check</span></h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs css"><code class="language-hljs css">hexo generate<br></code></pre></td></tr></table></figure>
+
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs css"><code class="language-hljs css">hexo server<br></code></pre></td></tr></table></figure>
-<h2><span id="5-final-effect">5. Final effect</span></h2>
-<p><img src="https://raw.githubusercontent.com/kathychen47/Img4KathyBlog/main/toc.png" srcset="/img/loading.gif" lazyload></p>
+
+<h2><span id="5-final-effect">5. Final effect</span></h2><p><img src="https://raw.githubusercontent.com/kathychen47/Img4KathyBlog/main/toc.png" srcset="/img/loading.gif" lazyload></p>
 
                 
               </div>
