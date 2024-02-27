@@ -8,3 +8,5 @@ layout: about
 
 ### Here is my profile!
 
+PhD Condidate at University of Canterbury.
+Good at Cooking. Love dogs and Cats.

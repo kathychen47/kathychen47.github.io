@@ -112,7 +112,9 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: "git"
+  repo: "git@github.com:kathychen47/kathychen47.github.io.git"
+  branch: "gh-pages"
 
 mathjax:
   enable: true # set to true to enable mathjax support
